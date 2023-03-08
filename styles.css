@@ -1,0 +1,80 @@
+
+body{
+    background-color: coral;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    /*background-color:brown;*/
+    height: 100px;
+    width: 100%;
+}
+
+
+.boxl{
+    text-align: left;
+    width: 20%;
+    height: 650px;
+    background-color:#447EF2;
+    float:left;
+}
+
+.boxm{
+    text-align: left;
+    width: 60%;
+    height: 650px;
+    background-color:thistle;
+    float:left;
+}
+
+.boxr{
+    text-align: left;
+    width: 20%;
+    height: 650px;
+    background-color:grey;
+    float:left;
+}
+
+footer{
+    background-color:khaki;
+    width:100%;
+    height:5%;
+
+}
+
+
+nav{
+    background-color: blueviolet;
+    width: 80%;
+    height: 50px;
+    margin-left: 5%; /*the spcae to the left*/
+    margin-top: 5%; /*the space above the box*/
+}
+
+ul{
+    list-style-type: none; /*removes the bullets*/
+}
+
+li{
+    float: left; /*makes the links go next to each other*/
+}
+
+li a{
+    display: block; /*takes up the whole width*/
+    color: white; /*colours the text*/
+    font-size: 20px; /*size of the text*/
+    text-align: center; /*will center the text*/
+    text-decoration: none; /*removes the underline*/
+    padding-top: 5px; /*adds space above the links*/
+    padding-left: 20px; /*adds space between the links*/
+}
+
+li a:hover {
+    color: coral; /*changes text colour on hover*/
+}
+
+
+
+        /*CSS comment*/
